@@ -1,0 +1,11 @@
+<suite name="TM-JULY-SELENIUM" verbose="10">
+
+    <test name="Smoketest" preserve-order="true" parallel="classes" thread-count="5">
+        <classes>
+<!--            <class name="TC_01"/>-->
+            <class name="com.testcases.TC_01"/>
+
+        </classes>
+    </test>
+
+</suite>
